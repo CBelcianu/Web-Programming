@@ -1,0 +1,108 @@
+.up{
+    overflow: auto;
+}
+
+.mid{
+    overflow: auto;
+}
+
+.down{
+    overflow: auto;
+}
+
+#message{
+    margin-top: 30px;
+    width: 200px;
+    height: 40px;
+    border: 2px solid red;
+}
+
+#right-up{
+    text-align: center;
+    line-height: 40px;
+    flex: 1;
+    height: 40px;
+    width: 40px;
+    border: 1px solid black;
+    float: left;
+}
+
+#middle-up{
+    text-align: center;
+    line-height: 40px;
+    flex: 1;
+    height: 40px;
+    width: 40px;
+    border: 1px solid black;
+    float: left;
+}
+
+#left-up{
+    text-align: center;
+    line-height: 40px;
+    flex: 1;
+    height: 40px;
+    width: 40px;
+    border: 1px solid black;
+    float: left;
+}
+
+#right-mid{
+    text-align: center;
+    line-height: 40px;
+    flex: 1;
+    height: 40px;
+    width: 40px;
+    border: 1px solid black;
+    float: left;
+}
+
+#middle-mid{
+    text-align: center;
+    line-height: 40px;
+    flex: 1;
+    height: 40px;
+    width: 40px;
+    border: 1px solid black;
+    float: left;
+}
+
+#left-mid{
+    text-align: center;
+    line-height: 40px;
+    flex: 1;
+    height: 40px;
+    width: 40px;
+    border: 1px solid black;
+    float: left;
+}
+
+#right-down{
+    text-align: center;
+    line-height: 40px;
+    flex: 1;
+    height: 40px;
+    width: 40px;
+    border: 1px solid black;
+    float: left;
+}
+
+#middle-down{
+    text-align: center;
+    line-height: 40px;
+    flex: 1;
+    height: 40px;
+    width: 40px;
+    border: 1px solid black;
+    float: left;
+}
+
+#left-down{
+    text-align: center;
+    line-height: 40px;
+    flex: 1;
+    height: 40px;
+    width: 40px;
+    border: 1px solid black;
+    float: left;
+}
