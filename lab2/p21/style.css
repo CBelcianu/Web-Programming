@@ -1,0 +1,73 @@
+div.d1{ 
+	width: 500px;
+	height: 500px; 
+	background-color: lightgreen;
+	position: absolute;
+	z-index: 1;
+	border: 1px solid black
+}
+
+div.d2{ 
+	width: 450px;
+	height: 450px; 
+	background-color: yellowgreen;
+	position: absolute;
+	z-index: 2; 
+	border: 1px solid black
+}
+
+div.d3{ 
+	width: 400px;
+	height: 400px; 
+	background-color: mediumseagreen;
+	position: absolute;
+	z-index: 3;
+	border: 1px solid black
+}
+
+div.d4{ 
+	width: 350px;
+	height: 350px; 
+	background-color: green;
+	position: absolute;
+	z-index: 4;
+	border: 1px solid black
+}
+
+.d4:hover ~ .d1,.d4:hover ~ .d2,.d4:hover ~ .d3{
+	background-color: green;
+}
+
+/*
+div.d1:hover div.d5{
+	visibility: visible;
+	width: 450px;
+	height: 450px;
+	background-color: lightgreen;
+}
+
+div.d2:hover div.d5{
+	visibility: visible;
+	width: 500px;
+	height: 500px;
+	background-color: yellowgreen;
+	pointer-events: none;
+}
+
+div.d3:hover div.d5{
+	visibility: visible;
+	width: 500px;
+	height: 500px;
+	background-color: mediumseagreen;
+	pointer-events: none;
+}
+
+
+div.d4:hover div.d5{
+	visibility: visible;
+	width: 500px;
+	height: 500px;
+	pointer-events: none;
+	background-color: green;
+}
+*/

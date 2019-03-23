@@ -1,0 +1,240 @@
+.msn{
+	background-color: #f4f4f2;
+}
+
+.searchbar{
+	padding-top: 25px;
+	padding-left: 90px;
+	width: 100%;
+	position: sticky;
+	top: 0;
+	right: 0;
+	left: 0;
+	height: 108px;
+	background-color: red;
+	-webkit-box-shadow: 0px 3px 23px -4px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 3px 23px -4px rgba(0,0,0,0.75);
+	box-shadow: 0px 3px 23px -4px rgba(0,0,0,0.75);
+	background-color: #f4f4f2;
+}
+
+.msnpic{
+	height: 7vh;
+	width: 86vw;
+	align-self: center;
+}
+
+
+*, ::after, ::before{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+
+ul {
+  	list-style-type: none;
+  	margin: 0;
+  	padding-left: 7.4vw;
+  	overflow: hidden;
+  	background-color: #f4f4f2;
+}
+
+li {
+ 	float: left;
+}
+
+.outlookimg{
+	width: 121px;
+	height: 34px;
+	align-self: center;
+}
+
+.skypeimg {
+	width: 96px;
+	height: 34px;
+	align-self: center;	
+}
+
+.storeimg{
+	width: 140px;
+	height: 35px;
+	align-self: center;
+}
+
+hr {
+	width: 82vw;
+	margin-left: 7.7vw;
+}
+
+.navbar2{
+	padding-left: 7.7vw;
+}
+
+.nav2img{
+	width:82vw;
+	height: 5.1vh;
+}
+
+.bmain {
+	margin-left: 7.1vw;
+	background-color: #f4f4f2;
+	width: 85%;
+}
+
+.newsbox1 {
+	/*
+	margin-left: 21px;
+	margin-top: 21px;
+	*/
+	margin: 11px;
+	float: left;
+	background-color: white;
+	border: 1px solid grey;
+	/*width: 47.5%;*/
+	width: 620px;
+	height: 50vh;
+	-webkit-box-shadow: 0px 3px 23px -4px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 3px 23px -4px rgba(0,0,0,0.75);
+	box-shadow: 0px 3px 23px -4px rgba(0,0,0,0.75);
+}
+
+.newsbox2 {
+	/*
+	margin-left: 21px;
+	margin-top: 21px;
+	*/
+	margin: 11px;
+	float: left;
+	background-color: white;
+	border: 1px solid grey;
+	/*width: 22.9%;*/
+	width: 299px;
+	height: 34vh;
+	-webkit-box-shadow: 0px 3px 23px -4px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 3px 23px -4px rgba(0,0,0,0.75);
+	box-shadow: 0px 3px 23px -4px rgba(0,0,0,0.75);	
+}
+
+.newsbox3 {
+	/*
+	margin-left: 21px;
+	margin-top: 21px;
+	*/
+	margin: 11px;
+	float: left;
+	background-color: white;
+	border: 1px solid grey;
+	/*width: 22.9%;*/
+	width: 299px;
+	height: 34vh;
+	-webkit-box-shadow: 0px 3px 23px -4px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 3px 23px -4px rgba(0,0,0,0.75);
+	box-shadow: 0px 3px 23px -4px rgba(0,0,0,0.75);	
+}
+
+.newsbox4 {
+	/*
+	margin-top: 21px;
+	margin-left: 21px;
+	*/
+	margin: 11px;
+	float: left;
+	background-color: white;
+	border: 1px solid grey;
+	/*width: 22.9%;*/
+	width: 299px;
+	height: 13vh;
+	-webkit-box-shadow: 0px 3px 23px -4px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 3px 23px -4px rgba(0,0,0,0.75);
+	box-shadow: 0px 3px 23px -4px rgba(0,0,0,0.75);	
+}
+
+.newsbox5 {
+	/*
+	margin-top: 21px;
+	margin-left: 21px;
+	*/
+	margin: 11px;
+	float: left;
+	background-color: white;
+	border: 1px solid grey;
+	/*width: 22.9%;*/
+	width: 299px;
+	height: 13vh;
+	-webkit-box-shadow: 0px 3px 23px -4px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 3px 23px -4px rgba(0,0,0,0.75);
+	box-shadow: 0px 3px 23px -4px rgba(0,0,0,0.75);	
+}
+
+.bsecond {
+	overflow: auto;
+	margin-left: 7.1vw;
+	background-color: #f4f4f2;
+	width: 85%;
+}
+
+.newsbox6 {
+	/*
+	margin-top: 21px;
+	margin-left: 21px;
+	*/
+	margin: 11px;
+	float: left;
+	background-color: white;
+	border: 1px solid grey;
+	/*width: 22.9%;*/
+	width: 299px;
+	height: 13vh;
+	-webkit-box-shadow: 0px 3px 23px -4px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 3px 23px -4px rgba(0,0,0,0.75);
+	box-shadow: 0px 3px 23px -4px rgba(0,0,0,0.75);	
+}
+.newsbox7 {
+	/*
+	margin-top: 21px;
+	margin-left: 21px;
+	*/
+	margin: 11px;
+	float: left;
+	background-color: white;
+	border: 1px solid grey;
+	/*width: 22.9%;*/
+	width: 299px;
+	height: 13vh;
+	-webkit-box-shadow: 0px 3px 23px -4px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 3px 23px -4px rgba(0,0,0,0.75);
+	box-shadow: 0px 3px 23px -4px rgba(0,0,0,0.75);	
+}
+.newsbox8 {
+	/*
+	margin-top: 21px;
+	margin-left: 21px;
+	*/
+	margin: 11px;
+	float: left;
+	background-color: white;
+	border: 1px solid grey;
+	/*width: 22.9%;*/
+	width: 299px;
+	height: 13vh;
+	-webkit-box-shadow: 0px 3px 23px -4px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 3px 23px -4px rgba(0,0,0,0.75);
+	box-shadow: 0px 3px 23px -4px rgba(0,0,0,0.75);	
+}
+.newsbox9 {
+	/*
+	margin-top: 21px;
+	margin-left: 21px;
+	*/
+	margin: 11px;
+	float: left;
+	background-color: white;
+	border: 1px solid grey;
+	/*width: 22.9%;*/
+	width: 299px;
+	height: 13vh;
+	-webkit-box-shadow: 0px 3px 23px -4px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 3px 23px -4px rgba(0,0,0,0.75);
+	box-shadow: 0px 3px 23px -4px rgba(0,0,0,0.75);	
+}
