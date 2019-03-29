@@ -4,7 +4,7 @@
 
 .searchbar{
 	padding-top: 25px;
-	padding-left: 90px;
+	/*padding-left: 90px;*/
 	width: 100%;
 	position: sticky;
 	top: 0;
@@ -16,6 +16,28 @@
 	-moz-box-shadow: 0px 3px 23px -4px rgba(0,0,0,0.75);
 	box-shadow: 0px 3px 23px -4px rgba(0,0,0,0.75);
 	background-color: #f4f4f2;
+}
+
+.logoimg{
+	margin-top: 10px;
+	height: 49px;
+	width: 90px;
+	margin-right: 13vw;
+}
+
+.inn{
+	margin-top: 10px;
+	height: 45px;
+	width: 40vw;
+}
+
+.btnn{
+	margin-top: 10px;
+	height: 45px;
+	width: 90px;
+	background-color: orange;
+	border: none;
+	text-align: center;
 }
 
 .msnpic{
