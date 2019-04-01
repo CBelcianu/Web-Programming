@@ -1,0 +1,26 @@
+#dialog{
+    border: 1px solid black;
+    height: 300px;
+    width: 1000px;
+    position: absolute;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    -ms-user-select: none;
+    -khtml-user-select: none;     
+    user-select: none;
+}
+
+#dialogheader{
+    text-align: center;
+    background-color: gray;
+    overflow: auto;
+}
+
+#hdg{
+    float: left;
+}
+
+#closebtn{
+    margin-left: 880px;
+}
