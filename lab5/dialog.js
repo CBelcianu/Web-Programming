@@ -14,7 +14,7 @@ $(document).ready(function () {
     $('#opener').click(function () {
         open();
     });
-
+    
 });
 
 var mydragg = function(){
