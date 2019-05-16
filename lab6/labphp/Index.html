@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="jquery-3.3.1.js"></script>
+        <script type="text/javascript" src="script.js"></script>
+        <script type="text/javascript" src="call.js"></script>
+        <h2>e-Magazin</h2>
+    </head>
+    <body onload="getProducator()">
+        <table border="10">
+            <tr id="myTable">
+                <th>Nume Produs</th>
+                <th>Categorie</th>
+                <th>Pret</th>
+                <th>Cantitate</th>
+            </tr>
+            <tr>
+                <td id='Nume1'></td><td id='Categorie1'></td><td id='Pret1'></td><td id='Cantitate1'></td>
+            </tr>
+            <tr>
+                <td id='Nume2'></td><td id='Categorie2'></td><td id='Pret2'></td><td id='Cantitate2'></td>
+            </tr>
+            <tr>
+                <td id='Nume3'></td><td id='Categorie3'></td><td id='Pret3'></td><td id='Cantitate3'></td>
+            </tr>
+            <tr>
+                <td id='Nume4'></td><td id='Categorie4'></td><td id='Pret4'></td><td id='Cantitate4'></td>
+            </tr>
+        </table>
+        <button id="btnPrev" onclick="prev()" disabled='disabled'>Previous Page</button>
+        <button id="btnNext" onclick="next()">Next Page</button>
+        <button id="btnAddCart" onclick="addToCart()">Add to cart</button>
+        <button id="btnViewCart" onclick="vcart()">View cart</button>
+        <select id="Producator" onchange="foo()">
+            <option value="none">none</option>
+        </select>
+    </body>
+</html>

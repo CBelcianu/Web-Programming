@@ -6,7 +6,6 @@ $(document).ready(function () {
     $('#opener').click(function () {
         $('#dialog').show();
     });
-    
 });
 
 $(document).ready(function () {
@@ -39,7 +38,7 @@ $(document).ready(function () {
         });
     });
     $('#dialog').mouseup( () => {
-        var a = document.createElement('script');
+        //var a = document.createElement('script');
         $(document).unbind('mousemove');
         $('#dialog').get(0).style.cursor='default';
         $(document).mousemove( () => {});
