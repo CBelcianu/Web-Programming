@@ -1,0 +1,14 @@
+#tnails {
+  margin: auto;
+  width: 610px;
+}
+
+#tnails img{
+    height: 150px;
+    width: 200px;
+}
+
+#origin {
+    margin: auto;
+    width: 810px;
+  }
