@@ -3,7 +3,7 @@ package jsp.model;
 import java.sql.*;
 import java.util.Random;
 
-public class dataBaseAdaptor {
+public class DataBaseAdaptor {
     private String driver;
     private String connectionString;
     private String username;
@@ -12,7 +12,7 @@ public class dataBaseAdaptor {
     private int score = 0;
     private int n = 3;
 
-    public dataBaseAdaptor() {
+    public DataBaseAdaptor() {
         this.driver = "org.gjt.mm.mysql.Driver";
         this.connectionString = "jdbc:mysql://localhost/lab8jsp";
         this.username = "root";

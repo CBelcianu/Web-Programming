@@ -5,7 +5,7 @@
          version="3.1">
     <servlet>
         <servlet-name>puzzleController</servlet-name>
-        <servlet-class>jsp.controller.puzzleController</servlet-class>
+        <servlet-class>jsp.controller.PuzzleController</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>puzzleController</servlet-name>

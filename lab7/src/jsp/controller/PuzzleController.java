@@ -1,6 +1,6 @@
 package jsp.controller;
 
-import jsp.model.dataBaseAdaptor;
+import jsp.model.DataBaseAdaptor;
 
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -13,7 +13,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.stream.Stream;
 
-public class puzzleController extends HttpServlet {
+public class PuzzleController extends HttpServlet {
     public void writePuzzle(PrintWriter printWriter, String puzzleHtml) {
         printWriter.println("<html>");
         printWriter.println("<head>");
@@ -38,14 +38,14 @@ public class puzzleController extends HttpServlet {
     }
     public void doGet(HttpServletRequest req, HttpServletResponse res) throws IOException {
         res.setContentType("text/html");
-        dataBaseAdaptor db = new dataBaseAdaptor();
+        DataBaseAdaptor db = new DataBaseAdaptor();
         db.connect();
         writePuzzle(res.getWriter(), db.getPuzzle());
         db.disconnect();
     }
     public void doPost(HttpServletRequest req, HttpServletResponse res) throws IOException {
         res.setContentType("text/html");
-        dataBaseAdaptor db = new dataBaseAdaptor();
+        DataBaseAdaptor db = new DataBaseAdaptor();
         db.connect();
         db.resetGame();
         writePuzzle(res.getWriter(), db.getPuzzle());
@@ -63,7 +63,7 @@ public class puzzleController extends HttpServlet {
         });
         int id1 = Integer.valueOf(params.get("id1"));
         int id2 = Integer.valueOf(params.get("id2"));
-        dataBaseAdaptor db = new dataBaseAdaptor();
+        DataBaseAdaptor db = new DataBaseAdaptor();
         db.connect();
         db.swap(id1, id2);
         res.getWriter().println(db.getPuzzle());

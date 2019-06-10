@@ -6,7 +6,6 @@ $(document).ready(function(){
         var id = $(this).attr("id");
         if(prevId == null) {
             prevId = id;
-            $("#selected").attr("src", "img/" + id + ".jpeg");
             return ;
         }
         else {
@@ -21,12 +20,8 @@ $(document).ready(function(){
                     window.location = window.location.pathname;
                 }
             });
-            $("#selected").removeAttr("src");
             prevId = null;
         }
     });
-    $("#selected").click(function() {
-        prevId = null;
-        $(this).removeAttr("src");
-    });
+
 });
