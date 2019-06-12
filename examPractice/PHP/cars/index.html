@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="script.js"></script>
+        <h2>CAR INSIDER</h2>
+    </head>
+    <body>
+        <div id="serachdiv">
+            <input id="searchbar" onkeypress="brow()" onkeydown="verify()"> <button id="btnSearch">Search</button>
+        </div>
+        <div id="tablediv">
+            <table border="5" id="carsTable">
+                <tr id="myTable">
+                    <th>Model</th>
+                    <th>Horse Power</th>
+                    <th>Torque</th>
+                    <th>Fuel</th>
+                    <th>Color</th>
+                    <th>Price</th>
+                </tr>
+            </table>
+        </div>
+        <div id="crudDiv">
+            <button id="btnTriggerAdd" onclick="triggerAdd()">Add Car</button>
+        </div>
+    </body>
+</html>

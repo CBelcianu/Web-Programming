@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="script.js"></script>
+        <script src="jquery-3.3.1.js"></script>
+    </head>
+    <body onload="populateNews()">
+        <p>username:</p>
+        <input id="username">
+        <br>
+        <p>password:</p>
+        <input id="password">
+        <br>
+        <button id="btnLogin" onclick="logIn()">Login</button>
+        <br>
+        <div id="main">
+            <table border="10px" id="newsTable">
+                <tr id="myTable">
+                    <th>title</th>
+                    <th>producer</th>
+                    <th>category</th>
+                    <th>date</th>
+                </tr>
+            </table>
+        </div>
+        
+    </body>
+</html>

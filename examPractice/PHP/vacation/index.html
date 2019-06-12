@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="scrpit.js"></script>
+        <h2>HAI IN VACANTE BOSS</h2>
+    </head>
+    <body onload="getCountry()">
+        <table border="10" id="destinationsTable">
+            <tr id="myTable">
+                <th>City</th>
+                <th>Country</th>
+                <th>Description</th>
+                <th>Cost/day</th>
+            </tr>
+            <tr>
+                <td id='City1'></td><td id='Country1'></td><td id='Description1'></td><td id='Cost1'></td>
+            </tr>
+            <tr>
+                <td id='City2'></td><td id='Country2'></td><td id='Description2'></td><td id='Cost2'></td>
+            </tr>
+            <tr>
+                <td id='City3'></td><td id='Country3'></td><td id='Description3'></td><td id='Cost3'></td>
+            </tr>
+            <tr>
+                <td id='City4'></td><td id='Country4'></td><td id='Description4'></td><td id='Cost4'></td>
+            </tr>
+            </tr>
+        </table>
+        <button id="btnPrev" onclick="prev()" disabled='disabled'>Previous Page</button>
+        <button id="btnNext" onclick="next()">Next Page</button>
+        <select id="BrowCountry" onchange="foo()">
+            <option value="none">none</option>
+        </select>
+        <div>
+            <label>city:</label><input id="city"><br>
+            <label>country:</label><input id="country"><br>
+            <label>description:</label><input id="description"><br>
+            <label>cost:</label><input id="cost"><br>
+            <button id="btnAdd" onclick="addCity()">Add</button><button id="btnDel" onclick="delCity()">Delete</button><button id="btnUpdate" onclick="updCity()">Update</button>
+        </div>
+    </body>
+</html>
