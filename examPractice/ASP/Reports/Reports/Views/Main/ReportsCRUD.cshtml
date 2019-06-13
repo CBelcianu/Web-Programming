@@ -1,0 +1,42 @@
+﻿
+@{
+    ViewBag.Title = "ReportsCRUD";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+    <script src="~/static/crudmanager.js"></script>
+    <h2>CRUD</h2>
+</head>
+<body>
+
+    <form name="crudForm">
+        <div class="form-group">
+            <label>Type</label>
+            <input type="text" name="type" placeholder="type">
+        </div>
+        <div class="form-group">
+            <label>Severity</label>
+            <input type="text" name="severity" placeholder="yellow/orange/red/black">
+
+        </div>
+        <div class="form-group">
+            <button id="add-button" type="button">
+                add
+            </button>
+        </div>
+        <div class="form-group">
+            <button id="del-button" type="button">
+                del
+            </button>
+        </div>
+    </form>
+</body>
+
+
